@@ -7,8 +7,8 @@
 ---
 
 ## 👨‍💻 Identitas Mahasiswa
-* **Nama Lengkap:** Deprian Putra Janova
-* **NPM / ID Mahasiswa:** 2514101046
+* **Nama:** Deprian Putra Janova
+* **NPM:** 2514101046
 * **Email:** deprian022@gmail.com
 
 
