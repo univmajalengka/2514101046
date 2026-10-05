@@ -91,6 +91,7 @@ body{margin:0;background:#f9f9f6;font-family:'Segoe UI', Tahoma, Geneva, Verdana
 .banner img.crop-tengah { object-position: center center; }
 .banner img.crop-bawah { object-position: center bottom; }
 
+/* LOGO TENGAH DENGAN EFEK HOVER HILANG (FADE OUT) */
 .banner-logo-img {
   position: absolute;
   top: 50%;
@@ -99,8 +100,18 @@ body{margin:0;background:#f9f9f6;font-family:'Segoe UI', Tahoma, Geneva, Verdana
   max-width: 55%; 
   height: auto;
   z-index: 10;
-  pointer-events: none;
+  cursor: pointer; /* Menandakan elemen bisa disentuh/diarahkan cursor */
   filter: drop-shadow(5px 5px 12px rgba(0,0,0,0.7));
+  
+  /* Efek Transisi Mulus */
+  opacity: 1;
+  transition: opacity 0.35s ease-in-out, transform 0.35s ease-in-out;
+}
+
+/* Saat kursor diarahkan ke logo, logo jadi transparan (hilang) dan sedikit membesar */
+.banner-logo-img:hover {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(1.03);
 }
 
 /* POP-UP MODAL (LIGHTBOX) */
@@ -335,10 +346,10 @@ body{margin:0;background:#f9f9f6;font-family:'Segoe UI', Tahoma, Geneva, Verdana
     
     <!-- Gambar Kanan (Klik untuk Pop-up) -->
     <div class="banner-item" onclick="openModal('img/IMG_20260707_142147.jpg')">
-      <img class="bg-img crop-bawah" src="img/jam2.png" alt="Wisata 3">
+      <img class="bg-img crop-bawah" src="img/IMG_20260707_142147.jpg" alt="Wisata 3">
     </div>
     
-    <!-- Gambar Logo -->
+    <!-- Gambar Logo Besar (Hilang Saat Di-hover) -->
     <img class="banner-logo-img" src="img/pictniqteks.png" alt="Logo Pictniq Land">
   </div>
 
