@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selamat Datang Di Pictniq Land</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <!-- Header Utama dengan Logo Gambar di Judul -->
+  <div class="main-header">
+    <div class="header-brand">
+      <span>Selamat Datang Di</span>
+      <img src="img/pictniqtitle.png" alt="Pictniq Land" class="brand-title-img">
+    </div>
+    <div class="subtitle">Sensasi Piknik Sambil Keliling Dunia</div>
+  </div>
+
+  <!-- Banner 3 Kolom + Logo -->
+  <div class="banner">
+    <!-- Gambar Kiri (Klik untuk Pop-up) -->
+    <div class="banner-item" onclick="openModal('img/IMG_20260707_142144.jpg')">
+      <img class="bg-img crop-atas" src="img/IMG_20260707_142144.jpg" alt="Wisata 1">
+    </div>
+    
+    <!-- Gambar Tengah (Klik untuk Pop-up) -->
+    <div class="banner-item" onclick="openModal('img/IMG_20260707_144115.jpg')">
+      <img class="bg-img crop-tengah" src="img/image.png" alt="Wisata 2">
+    </div>
+    
+    <!-- Gambar Kanan (Klik untuk Pop-up) -->
+    <div class="banner-item" onclick="openModal('img/IMG_20260707_142147.jpg')">
+      <img class="bg-img crop-bawah" src="img/jam2.png" alt="Wisata 3">
+    </div>
+    
+    <!-- Gambar Logo -->
+    <img class="banner-logo-img" src="img/pictniqteks.png" alt="Logo Pictniq Land">
+  </div>
+
+  <!-- Modal Pop-up untuk Gambar -->
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <!-- Navbar -->
+  <nav class="nav">
+    <a href="#" class="active">Beranda</a>
+    <a href="#about">TENTANG KAMI</a>
+    <a href="#landmark">LANDMARK DUNIA</a>
+    <a href="#fasilitas">FASILITAS</a>
+    <a href="#tiket">TIKET & JAM BUKA</a>
+    <a href="#kuliner">KULINER</a>
+    <a href="#pesan">RESERVASI</a>
+    <a href="#gallery">GALERI FOTO</a>
+  </nav>
+
+  <div class="content">
+    <main class="articles">
+      <article class="article">
+        <img src="img/IMG_20260707_142150.jpg" alt="Paket wisata alam">
+        <div class="text">
+          <div class="date">◉ 07 Juli 2026</div>
+          <h2>Eksplorasi Landmark Dunia & Spot Foto Instagramable</h2>
+          <p>Nikmati sensasi keliling dunia dalam sehari dengan latar replika ikonik global, taman bunga cantik, serta panorama perbukitan Patuk yang memukau.</p>
+        </div>
+      </article>
+
+      <article class="article">
+        <img src="img/IMG_20260707_142433.jpg" alt="Paket petualangan">
+        <div class="text">
+          <div class="date">◉ 8 Juli 2026</div>
+          <h2>Paket Piknik Keluarga & Kuliner Sunset Romantis</h2>
+          <p>Rasakan kenyamanan piknik santai di atas rumput sintetis ditemani area bean bag, lengkap dengan sajian street food lezat dan pemandangan senja terbaik di Jogja.</p>
+        </div>
+      </article>
+    </main>
+
+    <aside class="sidebar">
+      <div class="search">
+        <input type="text" placeholder="Cari..." aria-label="Cari">
+        <button>Cari</button>
+      </div>
+      
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/9AIu4Mp7tfM" title="YouTube video player" allowfullscreen></iframe>
+      </div>
+      <div class="side-title">PICTNIQ LAND YOGYAKARTA 🔥 Makin Ramai & Menarik! Ini yang Wajib Kamu Lihat! "Ternyata Begini"</div>
+    </aside>
+  </div>
+</div>
+
+<script>
+  function openModal(imageSrc) {
+    var modal = document.getElementById("imageModal");
+    var modalImg = document.getElementById("modalImg");
+    modal.style.display = "flex";
+    modalImg.src = imageSrc;
+  }
+
+  function closeModal() {
+    var modal = document.getElementById("imageModal");
+    modal.style.display = "none";
+  }
+</script>
+</body>
+</html>
