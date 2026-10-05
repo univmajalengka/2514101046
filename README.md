@@ -15,7 +15,7 @@
 
 ## 🌐 Website Wisata
 
-🔗 **[Akses Website PABW](https://univmajalengka.github.io/2514101046/PABW/)**
+🔗 **[Akses Tugas Website Wisata](https://univmajalengka.github.io/2514101046/PABW/)**
 
 ---
 
