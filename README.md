@@ -1,7 +1,7 @@
 # Profil & Dokumentasi Repository
 
 <div align="center">
-  <p><b>✨ Selamat datang di repository Deprian Putra Janova</b></p>
+  <p><b>Selamat datang di repository Deprian Putra Janova</b></p>
 </div>
 
 ---
