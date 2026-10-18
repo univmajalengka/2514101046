@@ -15,7 +15,7 @@
 
 ## 🌐 Link Website Tugas Pertemuan ke 3
 
-🔗 **[Akses Tugas User Interface](https://univmajalengka.github.io/2514101046/PABW/)**
+🔗 **[Akses Tugas User Interface](https://univmajalengka.github.io/2514101046/Pengembangan%20Aplikasi%20Berbasis%20Web%20(PABW)/Tugas%20Pertemuan%203%20Membuat%20User%20Interface/)**
 
 ---
 
