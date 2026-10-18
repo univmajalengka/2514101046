@@ -22,7 +22,8 @@
 ## 📂 Struktur Repository
 ```text
 📦 2514101046
- ┣ 📂 PABW/
- ┃  ┣ 📂 img/
- ┃  ┣ 📜 index.html
+ ┣ 📂 Pengembangan Aplikasi Berbasis Web (PABW)/
+ ┃  ┗ 📂 Tugas Pertemuan 3 Membuat User Interface/
+ ┃     ┣ 📂 img/
+ ┃     ┗ 📜 index.html
  ┗ 📜 README.md
